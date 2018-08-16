@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaNys.Client", "HaNys.Client\HaNys.Client.csproj", "{BFD82974-0967-4A81-86B9-A04FF352D9A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaNys.Server", "HaNys.Server\HaNys.Server.csproj", "{3C48C8BF-7843-4232-8302-51DFC3C4F445}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaNys.Shared", "HaNys.Shared\HaNys.Shared.csproj", "{702F1875-E13E-423E-B7BE-81581BEB1459}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD82974-0967-4A81-86B9-A04FF352D9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD82974-0967-4A81-86B9-A04FF352D9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD82974-0967-4A81-86B9-A04FF352D9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD82974-0967-4A81-86B9-A04FF352D9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C48C8BF-7843-4232-8302-51DFC3C4F445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C48C8BF-7843-4232-8302-51DFC3C4F445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C48C8BF-7843-4232-8302-51DFC3C4F445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C48C8BF-7843-4232-8302-51DFC3C4F445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702F1875-E13E-423E-B7BE-81581BEB1459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702F1875-E13E-423E-B7BE-81581BEB1459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702F1875-E13E-423E-B7BE-81581BEB1459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702F1875-E13E-423E-B7BE-81581BEB1459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
